@@ -14,5 +14,4 @@ clickButton.addEventListener('click', function(){
 } )
 
 var where = document.referrer;
-if (where==0) console.log("Посетитель пришел с <b>пустой страницы</b>")
-else document.console.log("Посетитель пришел с сайта: <b>" + where + "</b>")
+console.log(where)
